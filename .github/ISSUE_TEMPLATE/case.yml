@@ -1,0 +1,99 @@
+name: Send a case
+description: Something a model did, then suddenly didn't. Private details removed, please.
+title: "[Case] "
+labels: ["case"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you. Short is fine. Remove names, emails, keys and anything private before you paste.
+  - type: dropdown
+    id: family
+    attributes:
+      label: Which model family?
+      options:
+        - GPT / OpenAI
+        - Claude / Anthropic
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: model
+    attributes:
+      label: Model and where you used it
+      placeholder: e.g. Opus 5.5 in Claude Code, GPT-6.1 in the ChatGPT app
+    validations:
+      required: true
+  - type: input
+    id: when
+    attributes:
+      label: Date and time it happened
+      description: Date and time, with your time zone. Afternoon in Europe is morning in the US, so the time zone matters.
+      placeholder: e.g. 21 October 2026, 15:40, UTC+2
+    validations:
+      required: true
+  - type: textarea
+    id: task
+    attributes:
+      label: What was the task?
+    validations:
+      required: true
+  - type: textarea
+    id: before
+    attributes:
+      label: What it did well, before
+  - type: textarea
+    id: change
+    attributes:
+      label: What changed, and at what point?
+      description: Which turn, after a correction, after a new session, after a long stretch…
+    validations:
+      required: true
+  - type: input
+    id: where
+    attributes:
+      label: Where are you in the world?
+      placeholder: country or city, e.g. Lisbon
+    validations:
+      required: true
+  - type: input
+    id: howfar
+    attributes:
+      label: How far into the session?
+      placeholder: e.g. turn 12, about 2 hours in, after a correction
+  - type: textarea
+    id: cause
+    attributes:
+      label: What do you think caused it? (optional)
+      description: A guess is fine. Say it is a guess.
+  - type: textarea
+    id: excerpt
+    attributes:
+      label: Excerpt (private details removed)
+      render: text
+  - type: dropdown
+    id: evidence
+    attributes:
+      label: What kind of evidence is this?
+      options:
+        - First-hand report (what I saw)
+        - Transcript (the actual exchange)
+        - Controlled test (same task run several times)
+    validations:
+      required: true
+  - type: dropdown
+    id: repeat
+    attributes:
+      label: Does it happen again?
+      options:
+        - Every time
+        - Sometimes
+        - Once so far
+        - Not tested
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: Permission
+      options:
+        - label: You may quote this case (anonymously) in articles about the investigation.
+        - label: I'd be willing to talk about it or help analyse it.
