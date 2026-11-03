@@ -1,6 +1,6 @@
-name: Send a case
+name: Share your experience
 description: Something a model did, then suddenly didn't. Private details removed, please.
-title: "[Case] "
+title: "[Experience] "
 labels: ["case"]
 body:
   - type: markdown
@@ -95,5 +95,5 @@ body:
     attributes:
       label: Permission
       options:
-        - label: You may quote this case (anonymously) in articles about the investigation.
+        - label: You may quote this experience (anonymously) in articles about these questions.
         - label: I'd be willing to talk about it or help analyse it.

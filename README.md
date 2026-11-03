@@ -2,11 +2,11 @@
 
 **I don't know about you but I have had enough of seeing the services we are paying more and more for and $ is only one part of it my time and yours for ex are irreplaceable, so I came to ask myself, am I the only one who is experiencing this kind of psychotic behaviour / and it became rapidly clear that, well no.**
 
-**So I decided to open an investigation as to why the best AI models work fabulously (-out of reach Fable) one minute and behave like a psychotic loose cannon the next.**
+**SO I decided to open an investigation as to why the best AI models work fabulously (-out of reach Fable) one minute and behave like a psychotic loose cannon the next.**
 
 Working with top AI models is like riding a wild horse. Except one can communicate with a wild horse and agree on a modus operandi that works for both of us. AIs? Well it's a complete one way system.
 
-This page is the starting point. It sets out what I have seen, what others have documented, and the possible explanations. Then it asks you for your experiences, cases, put them all in one place and possibly see some pattern emerging from the user's ground up, not the marketing wrapped notes of the main AIs.
+This page is the starting point. It sets out what I have seen, what others have documented, and the possible explanations. Then it asks you for your experiences, to put them all in one place and possibly see some pattern emerging from the user's ground up, not the marketing wrapped notes of the main AIs.
 
 ## What Happens
 
@@ -64,7 +64,7 @@ These are reports by users, with their own measurements, plus one official incid
 - **The model you choose may not be the model you get.** A user selected GPT-6 Astra; the logs said Astra on every turn, yet outputs on fixed test prompts matched a smaller model, in the app and on the web. ([openai/codex issue 57030](https://github.com/openai/codex/issues/57030))
 - **Speed collapse on two days.** Median throughput fell from about 27 to under 9 tokens per second on 30 October, and under 4 on 31 October, across hundreds of responses. ([openai/codex issue 58483](https://github.com/openai/codex/issues/58483))
 
-More cases wanted, on both sides. Send yours.
+More experiences wanted, on both sides. Share yours.
 
 ## What The Providers Have Admitted
 
@@ -110,15 +110,15 @@ I am also not married to the presentation, someone can have a better one in mind
 
 ## Care To Share Your Experience?
 
-[**Open a case**](https://github.com/metanoia-hub/wild-horse/issues/new?template=case.yml) with the ready-made form. It asks for the model, the task, what changed, the date and time, where you are in the world, and an excerpt with private details removed. You need a free GitHub account.
+[**Share your experience**](https://github.com/metanoia-hub/wild-horse/issues/new?template=case.yml) with the ready-made form. It asks for the model, the task, what changed, the date and time, where you are in the world, and an excerpt with private details removed. You need a free GitHub account.
 
-Anyone can read this page; only sending a case through the form needs the account. Rather not make one? Write to me directly: [LinkedIn @lianemontagne](https://www.linkedin.com/in/lianemontagne) or [X @appliedmaverick](https://x.com/appliedmaverick). Same questions, in your own words.
+Anyone can read this page; only sharing through the form needs the account. Rather not make one? Write to me directly: [LinkedIn @lianemontagne](https://www.linkedin.com/in/lianemontagne) or [X @appliedmaverick](https://x.com/appliedmaverick). Same questions, in your own words.
 
 The two boards: [GPT / OpenAI cases](https://github.com/metanoia-hub/wild-horse/issues?q=label%3Agpt) · [Claude / Anthropic cases](https://github.com/metanoia-hub/wild-horse/issues?q=label%3Aclaude) · [all cases](https://github.com/metanoia-hub/wild-horse/issues?q=label%3Acase)
 
 Nothing you send is quoted outside this page without your permission.
 
-## Join The Investigation
+## Help Answer The Questions
 
 - You have measured something: tell us how, so others can repeat it.
 - You think one of the explanations above is wrong: tell me why.
